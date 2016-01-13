@@ -2,7 +2,7 @@
 The seed for react and webpack based project.
 Test are being handled by karma and jasmine. It also utilizes babel to get benefits of es2015.
 
-# Installation
+## Installation
 
 Clone the repository:
 git clone https://github.com/pafciu17/webpack-react-seed.git
@@ -10,7 +10,7 @@ git clone https://github.com/pafciu17/webpack-react-seed.git
 Install dependencies
 npm install
 
-# USAGE
+## USAGE
 
 Development related actions are being invoked by use of npm scripts (defined within package.json)
 
