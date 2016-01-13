@@ -4,8 +4,8 @@ import ReactDom from 'react-dom';
 
 import Component from '../src/Component';
 
-describe("A suite", function() {
-  it("contains spec with an expectation", function() {
+describe("Component", () => {
+  it("renders test component text", () => {
     var component = TestUtils.renderIntoDocument(<Component/>);
     var domeNode = ReactDom.findDOMNode(component);
     expect(domeNode.innerHTML).toBe('TEST COMPONENT');

@@ -1,5 +1,5 @@
 .idea
 
-dist/assets
+dist/
 
 node_modules

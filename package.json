@@ -4,7 +4,11 @@
   "description": "",
   "main": "entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server-dev.js",
+    "test": "karma start",
+    "clean-build": "rm -rf dist/*",
+    "copy-index": "cp src/index.html dist/",
+    "build": "npm run clean-build && webpack -p --config webpack.production.config.js && npm run copy-index"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +24,7 @@
     "karma-phantomjs-launcher": "^0.2.3",
     "karma-phantomjs-shim": "^1.2.0",
     "karma-webpack": "^1.7.0",
+    "object-assign": "^4.0.1",
     "phantomjs": "^1.9.19",
     "react": "^0.14.6",
     "react-addons-test-utils": "^0.14.6",
@@ -30,10 +35,5 @@
   },
   "dependencies": {
     "react": "^0.14.6"
-  },
-  "scripts": {
-    "start": "node server-dev.js",
-    "test": "karma start",
-    "clean-build": "rm -rf dist/assets",
   }
 }
