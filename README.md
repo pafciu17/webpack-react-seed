@@ -8,20 +8,20 @@ Clone the repository:
 `git clone https://github.com/pafciu17/webpack-react-seed.git`
 
 Install dependencies
-npm install
+`npm install`
 
 ## USAGE
 
 Development related actions are being invoked by use of npm scripts (defined within package.json)
 
 Starting dev server:
-npm run start
+`npm run start`
 
 Running tests:
-npm run test
+`npm run test`
 
 Cleaning build:
-npm run clean-build
+`npm run clean-build`
 
 Creating production build:
-npm run build
+`npm run build`
