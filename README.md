@@ -1,6 +1,6 @@
 # webpack-react-seed
 The seed for react and webpack based project.
-Test are being handled by karma and jasmine. It also utilize babel6 to get benefits of es2015.
+Test are being handled by karma and jasmine. It also utilizes babel to get benefits of es2015.
 
 # Installation
 
@@ -14,14 +14,14 @@ npm install
 
 Development related actions are being invoked by use of npm scripts (defined within package.json)
 
-Starting dev server
+Starting dev server:
 npm run start
 
-Running tests
+Running tests:
 npm run test
 
-Cleaning build
+Cleaning build:
 npm run clean-build
 
-Creating production build
+Creating production build:
 npm run build
