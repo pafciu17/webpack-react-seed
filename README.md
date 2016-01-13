@@ -5,7 +5,7 @@ Test are being handled by karma and jasmine. It also utilizes babel to get benef
 ## Installation
 
 Clone the repository:
-'''git clone https://github.com/pafciu17/webpack-react-seed.git'''
+`git clone https://github.com/pafciu17/webpack-react-seed.git`
 
 Install dependencies
 npm install
