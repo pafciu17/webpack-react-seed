@@ -10,7 +10,7 @@ Clone the repository:
 Install dependencies
 `npm install`
 
-## USAGE
+## Usage
 
 Development related actions are being invoked by use of npm scripts (defined within package.json)
 
